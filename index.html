@@ -15,6 +15,29 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top"> <!--navbar that declares it as a navigation bar, navbar-dark class to specify that the page should use the dark navigation bar,toggle in xs and sm screen and it will be styed top even if scrolling-->
+        <div class="container">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"> <!-- We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens-->
+                <span class="navbar-toggler-icon"></span><!--for 3  horizontal dash icon-->
+            </button> 
+
+            <a class="navbar-brand mr-auto" href="#">Ristorante Con Fusion</a><!-- This is the brand name for the website. You can replace this with the logo for the website. -->
+           
+           
+           
+          <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav mr-auto"><!--ul is styled with navbar-nav class to specify that the items should be displayed inline inside the navigation bar.-->
+                
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li><!--navbar-link and navbar-item for items and links-->
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>     
+                
+            </div>
+         </div>
+    </nav>
 
     <header class="jumbotron"><!--A jumbotron is used to showcase key content on a website. In this case we are using it to highlight the name of the restaurant.-->
         <div class="container">
@@ -69,7 +92,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled"> <!--for unstyling-->
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
